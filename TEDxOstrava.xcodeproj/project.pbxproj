@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCBD23FC1BAEA75600C7F584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD23FB1BAEA75600C7F584 /* AppDelegate.swift */; };
+		DCBD23FE1BAEA75600C7F584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD23FD1BAEA75600C7F584 /* ViewController.swift */; };
+		DCBD24011BAEA75600C7F584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBD23FF1BAEA75600C7F584 /* Main.storyboard */; };
+		DCBD24031BAEA75600C7F584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBD24021BAEA75600C7F584 /* Images.xcassets */; };
+		DCBD24061BAEA75600C7F584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBD24041BAEA75600C7F584 /* LaunchScreen.xib */; };
+		DCBD24121BAEA75600C7F584 /* TEDxOstravaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD24111BAEA75600C7F584 /* TEDxOstravaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCBD240C1BAEA75600C7F584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCBD23EE1BAEA75600C7F584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCBD23F51BAEA75600C7F584;
+			remoteInfo = TEDxOstrava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCBD23F61BAEA75600C7F584 /* TEDxOstrava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxOstrava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBD23FA1BAEA75600C7F584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBD23FB1BAEA75600C7F584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCBD23FD1BAEA75600C7F584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCBD24001BAEA75600C7F584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCBD24021BAEA75600C7F584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCBD24051BAEA75600C7F584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCBD240B1BAEA75600C7F584 /* TEDxOstravaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEDxOstravaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBD24101BAEA75600C7F584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBD24111BAEA75600C7F584 /* TEDxOstravaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxOstravaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCBD23F31BAEA75600C7F584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBD24081BAEA75600C7F584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCBD23ED1BAEA75600C7F584 = {
+			isa = PBXGroup;
+			children = (
+				DCBD23F81BAEA75600C7F584 /* TEDxOstrava */,
+				DCBD240E1BAEA75600C7F584 /* TEDxOstravaTests */,
+				DCBD23F71BAEA75600C7F584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCBD23F71BAEA75600C7F584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD23F61BAEA75600C7F584 /* TEDxOstrava.app */,
+				DCBD240B1BAEA75600C7F584 /* TEDxOstravaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCBD23F81BAEA75600C7F584 /* TEDxOstrava */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD23FB1BAEA75600C7F584 /* AppDelegate.swift */,
+				DCBD23FD1BAEA75600C7F584 /* ViewController.swift */,
+				DCBD23FF1BAEA75600C7F584 /* Main.storyboard */,
+				DCBD24021BAEA75600C7F584 /* Images.xcassets */,
+				DCBD24041BAEA75600C7F584 /* LaunchScreen.xib */,
+				DCBD23F91BAEA75600C7F584 /* Supporting Files */,
+			);
+			path = TEDxOstrava;
+			sourceTree = "<group>";
+		};
+		DCBD23F91BAEA75600C7F584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD23FA1BAEA75600C7F584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCBD240E1BAEA75600C7F584 /* TEDxOstravaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD24111BAEA75600C7F584 /* TEDxOstravaTests.swift */,
+				DCBD240F1BAEA75600C7F584 /* Supporting Files */,
+			);
+			path = TEDxOstravaTests;
+			sourceTree = "<group>";
+		};
+		DCBD240F1BAEA75600C7F584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCBD24101BAEA75600C7F584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCBD23F51BAEA75600C7F584 /* TEDxOstrava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBD24151BAEA75600C7F584 /* Build configuration list for PBXNativeTarget "TEDxOstrava" */;
+			buildPhases = (
+				DCBD23F21BAEA75600C7F584 /* Sources */,
+				DCBD23F31BAEA75600C7F584 /* Frameworks */,
+				DCBD23F41BAEA75600C7F584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEDxOstrava;
+			productName = TEDxOstrava;
+			productReference = DCBD23F61BAEA75600C7F584 /* TEDxOstrava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCBD240A1BAEA75600C7F584 /* TEDxOstravaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBD24181BAEA75600C7F584 /* Build configuration list for PBXNativeTarget "TEDxOstravaTests" */;
+			buildPhases = (
+				DCBD24071BAEA75600C7F584 /* Sources */,
+				DCBD24081BAEA75600C7F584 /* Frameworks */,
+				DCBD24091BAEA75600C7F584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCBD240D1BAEA75600C7F584 /* PBXTargetDependency */,
+			);
+			name = TEDxOstravaTests;
+			productName = TEDxOstravaTests;
+			productReference = DCBD240B1BAEA75600C7F584 /* TEDxOstravaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCBD23EE1BAEA75600C7F584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Svetlana Margetová";
+				TargetAttributes = {
+					DCBD23F51BAEA75600C7F584 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DCBD240A1BAEA75600C7F584 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DCBD23F51BAEA75600C7F584;
+					};
+				};
+			};
+			buildConfigurationList = DCBD23F11BAEA75600C7F584 /* Build configuration list for PBXProject "TEDxOstrava" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCBD23ED1BAEA75600C7F584;
+			productRefGroup = DCBD23F71BAEA75600C7F584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCBD23F51BAEA75600C7F584 /* TEDxOstrava */,
+				DCBD240A1BAEA75600C7F584 /* TEDxOstravaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCBD23F41BAEA75600C7F584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBD24011BAEA75600C7F584 /* Main.storyboard in Resources */,
+				DCBD24061BAEA75600C7F584 /* LaunchScreen.xib in Resources */,
+				DCBD24031BAEA75600C7F584 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBD24091BAEA75600C7F584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCBD23F21BAEA75600C7F584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBD23FE1BAEA75600C7F584 /* ViewController.swift in Sources */,
+				DCBD23FC1BAEA75600C7F584 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBD24071BAEA75600C7F584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBD24121BAEA75600C7F584 /* TEDxOstravaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCBD240D1BAEA75600C7F584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCBD23F51BAEA75600C7F584 /* TEDxOstrava */;
+			targetProxy = DCBD240C1BAEA75600C7F584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCBD23FF1BAEA75600C7F584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBD24001BAEA75600C7F584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCBD24041BAEA75600C7F584 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBD24051BAEA75600C7F584 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCBD24131BAEA75600C7F584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCBD24141BAEA75600C7F584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCBD24161BAEA75600C7F584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEDxOstrava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCBD24171BAEA75600C7F584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEDxOstrava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCBD24191BAEA75600C7F584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEDxOstravaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxOstrava.app/TEDxOstrava";
+			};
+			name = Debug;
+		};
+		DCBD241A1BAEA75600C7F584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TEDxOstravaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxOstrava.app/TEDxOstrava";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCBD23F11BAEA75600C7F584 /* Build configuration list for PBXProject "TEDxOstrava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBD24131BAEA75600C7F584 /* Debug */,
+				DCBD24141BAEA75600C7F584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCBD24151BAEA75600C7F584 /* Build configuration list for PBXNativeTarget "TEDxOstrava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBD24161BAEA75600C7F584 /* Debug */,
+				DCBD24171BAEA75600C7F584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCBD24181BAEA75600C7F584 /* Build configuration list for PBXNativeTarget "TEDxOstravaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBD24191BAEA75600C7F584 /* Debug */,
+				DCBD241A1BAEA75600C7F584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCBD23EE1BAEA75600C7F584 /* Project object */;
+}
