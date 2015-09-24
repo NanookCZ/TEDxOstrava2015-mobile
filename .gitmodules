@@ -1,0 +1,3 @@
+[submodule "TEDxOstravaTests/Alamofire"]
+	path = TEDxOstravaTests/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

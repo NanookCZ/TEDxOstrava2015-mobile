@@ -1,25 +1,173 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="INo-8L-9IR">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Speakers-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <viewController storyboardIdentifier="SpeakersTableViewController" id="vXZ-lx-hvc" customClass="SpeakersTableViewController" customModule="TEDxOstrava" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="89" sectionHeaderHeight="22" sectionFooterHeight="22" id="nQe-uu-1tD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.16149302640260166" blue="0.26449462351032882" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellID" rowHeight="89" id="GyJ-L7-dfu" customClass="SpeakerTableViewCell" customModule="TEDxOstrava" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GyJ-L7-dfu" id="rmJ-WZ-ABA">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eB9-lL-Vhb">
+                                            <rect key="frame" x="14" y="20" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="yXI-Aq-dss"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dql-CZ-XRs">
+                                            <rect key="frame" x="83" y="20" width="251" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="251" id="LAe-b8-TQt"/>
+                                                <constraint firstAttribute="height" constant="21" id="h2h-wY-Dgo"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZy-Oh-n60">
+                                            <rect key="frame" x="83" y="49" width="259" height="26"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="cuy-uK-6GG">
+                                            <rect key="frame" x="138" y="20" width="251" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="251" id="Nvi-Dq-LuH"/>
+                                                <constraint firstAttribute="height" constant="21" id="ZJu-m6-BJs"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="nZy-Oh-n60" firstAttribute="leading" secondItem="eB9-lL-Vhb" secondAttribute="trailing" constant="19" id="5YH-ia-omR"/>
+                                        <constraint firstItem="Dql-CZ-XRs" firstAttribute="top" secondItem="rmJ-WZ-ABA" secondAttribute="topMargin" constant="12" id="E0S-2P-zO5"/>
+                                        <constraint firstItem="eB9-lL-Vhb" firstAttribute="top" secondItem="Dql-CZ-XRs" secondAttribute="top" id="Xfw-lb-izw"/>
+                                        <constraint firstItem="nZy-Oh-n60" firstAttribute="top" secondItem="Dql-CZ-XRs" secondAttribute="bottom" constant="8" symbolic="YES" id="bHo-rF-875"/>
+                                        <constraint firstAttribute="trailing" secondItem="nZy-Oh-n60" secondAttribute="trailing" id="eXQ-ef-dBX"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nZy-Oh-n60" secondAttribute="bottom" constant="5.5" id="oMa-Sc-kmi"/>
+                                        <constraint firstItem="nZy-Oh-n60" firstAttribute="leading" secondItem="Dql-CZ-XRs" secondAttribute="leading" id="p2x-8L-2aO"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="eB9-lL-Vhb" secondAttribute="bottom" constant="10.5" id="w99-9b-dGQ"/>
+                                        <constraint firstItem="eB9-lL-Vhb" firstAttribute="leading" secondItem="rmJ-WZ-ABA" secondAttribute="leadingMargin" constant="-1" id="yuG-Cl-iq6"/>
+                                        <constraint firstItem="Dql-CZ-XRs" firstAttribute="trailing" secondItem="rmJ-WZ-ABA" secondAttribute="trailingMargin" id="zvM-CI-fLK"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="SpeakerFirstName" destination="Dql-CZ-XRs" id="6xR-fp-3z6"/>
+                                    <outlet property="SpeakerImage" destination="eB9-lL-Vhb" id="IWh-1U-uQE"/>
+                                    <outlet property="SpeakerInterests" destination="nZy-Oh-n60" id="9LR-rR-Zeh"/>
+                                    <outlet property="SpeakerLastName" destination="cuy-uK-6GG" id="RhZ-NN-npS"/>
+                                    <segue destination="JeC-je-KYJ" kind="show" identifier="showSpeaker" id="gZf-Ey-Nio"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vXZ-lx-hvc" id="gMc-fw-Jho"/>
+                            <outlet property="delegate" destination="vXZ-lx-hvc" id="3Wv-Ex-S9S"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Speakers" id="hys-wZ-2ud">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Nbg-x7-U7p"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1213.5" y="240.5"/>
+        </scene>
+        <!--Speaker name-->
+        <scene sceneID="ztu-kJ-gLA">
+            <objects>
+                <viewController id="JeC-je-KYJ" customClass="SpeakerDetailViewController" customModule="TEDxOstrava" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1qM-rp-Vf7"/>
+                        <viewControllerLayoutGuide type="bottom" id="kW8-gt-FcS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SYe-Xu-V0p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1NC-HG-bkE">
+                                <rect key="frame" x="-3" y="-68" width="380" height="326"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bratislava," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOa-pV-Xjm">
+                                <rect key="frame" x="27" y="274" width="96" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KVb-uW-htc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Slovakia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-1h-snT">
+                                <rect key="frame" x="125" y="274" width="167" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="Dw9-CQ-hPz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kG-uJ-eaA">
+                                <rect key="frame" x="27" y="315" width="320" height="271"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rFe-1h-snT" firstAttribute="baseline" secondItem="FOa-pV-Xjm" secondAttribute="baseline" id="Nu4-rI-CwG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rFe-1h-snT" secondAttribute="trailing" constant="26" id="NwS-Mq-bee"/>
+                            <constraint firstItem="FOa-pV-Xjm" firstAttribute="leading" secondItem="SYe-Xu-V0p" secondAttribute="leadingMargin" constant="11" id="UfI-2h-XWd"/>
+                            <constraint firstItem="rFe-1h-snT" firstAttribute="top" secondItem="1NC-HG-bkE" secondAttribute="bottom" constant="16" id="Z7C-nc-ogg"/>
+                            <constraint firstItem="kW8-gt-FcS" firstAttribute="top" secondItem="FOa-pV-Xjm" secondAttribute="bottom" constant="372" id="uqO-rM-pTJ"/>
+                            <constraint firstItem="FOa-pV-Xjm" firstAttribute="top" secondItem="1NC-HG-bkE" secondAttribute="bottom" constant="16" id="yOl-hL-Qe4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Speaker name" id="DZg-9K-9eN"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="SpeakerHeader" destination="DZg-9K-9eN" id="tdf-Lz-pg5"/>
+                        <outlet property="speakerImageView" destination="1NC-HG-bkE" id="Mt7-3k-fnv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZ3-jP-e5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.5" y="240.5"/>
+        </scene>
+        <!--Nav Bar View Controller-->
+        <scene sceneID="qFB-Rz-bkd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="INo-8L-9IR" customClass="NavBarViewController" customModule="TEDxOstrava" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gFg-ni-p2L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Oci-na-fcz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vtT-pc-8bB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="275"/>
         </scene>
     </scenes>
 </document>
