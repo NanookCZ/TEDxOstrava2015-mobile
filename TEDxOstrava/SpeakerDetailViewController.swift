@@ -24,7 +24,7 @@ class SpeakerDetailViewController: UIViewController {
     @IBOutlet weak var speakerFirstName: UILabel!
     
     @IBOutlet weak var speakerCountry: UILabel!
-    @IBOutlet weak var speakerDescription: UILabel!
+    //@IBOutlet weak var speakerDescription: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,7 +32,7 @@ class SpeakerDetailViewController: UIViewController {
         speakerImageView.image = speaker?.image
         speakerImageView.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height)
         SpeakerHeader.title = speaker!.first_name + " " + speaker!.last_name
-        speakerDescription.text = speaker?.description
+        //speakerDescription.text = speaker?.description
         speakerCountry.text = speaker?.speaker_country
         speakerCity.text = speaker?.speaker_city
         

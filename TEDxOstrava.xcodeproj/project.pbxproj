@@ -58,6 +58,7 @@
 		DCBD24941BB2C12500C7F584 /* speaker1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCBD24931BB2C12500C7F584 /* speaker1.jpg */; };
 		DCBD24961BB2C15100C7F584 /* speaker2.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBD24951BB2C15100C7F584 /* speaker2.png */; };
 		DCDEF8C71BB34704005A46DA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDEF8BA1BB345F8005A46DA /* Alamofire.framework */; };
+		DCDEF8CC1BB43275005A46DA /* Alamofire.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = DCDEF8BA1BB345F8005A46DA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,7 +118,28 @@
 			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
 			remoteInfo = "Alamofire iOS";
 		};
+		DCDEF8C91BB431F4005A46DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDEF8B11BB345F8005A46DA /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4202FCD1B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCDEF8CB1BB43209005A46DA /* Copy frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCDEF8CC1BB43275005A46DA /* Alamofire.framework in Copy frameworks */,
+			);
+			name = "Copy frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DCBD23F61BAEA75600C7F584 /* TEDxOstrava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxOstrava.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +224,7 @@
 				DCBD23F81BAEA75600C7F584 /* TEDxOstrava */,
 				DCBD240E1BAEA75600C7F584 /* TEDxOstravaTests */,
 				DCBD23F71BAEA75600C7F584 /* Products */,
+				DCDEF8B11BB345F8005A46DA /* Alamofire.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -332,7 +355,6 @@
 		DCDEF8B01BB345C8005A46DA /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				DCDEF8B11BB345F8005A46DA /* Alamofire.xcodeproj */,
 			);
 			name = Alamofire;
 			sourceTree = "<group>";
@@ -360,10 +382,12 @@
 				DCBD23F31BAEA75600C7F584 /* Frameworks */,
 				DCBD23F41BAEA75600C7F584 /* Resources */,
 				DCDEF8AF1BB342D4005A46DA /* Run Script */,
+				DCDEF8CB1BB43209005A46DA /* Copy frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DCDEF8CA1BB431F4005A46DA /* PBXTargetDependency */,
 				DCDEF8C61BB346EA005A46DA /* PBXTargetDependency */,
 				DCDEF8C41BB346E3005A46DA /* PBXTargetDependency */,
 			);
@@ -590,6 +614,11 @@
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
 			targetProxy = DCDEF8C51BB346EA005A46DA /* PBXContainerItemProxy */;
+		};
+		DCDEF8CA1BB431F4005A46DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire watchOS";
+			targetProxy = DCDEF8C91BB431F4005A46DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

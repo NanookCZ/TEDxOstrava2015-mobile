@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
-import KeychainAccess
+//import Alamofire
+//import SwiftyJSON
+//import KeychainAccess
 
 
 class ViewController: UIViewController {
-    
+    /*
     let authTokenUrl = "http://tedxostrava.thebrainity.com/api/auth/token/"
     let keychain = Keychain(service: "brainity")
     let authLoginUrl = "http://tedxostrava.thebrainity.com/api/auth/login/"
@@ -21,14 +21,18 @@ class ViewController: UIViewController {
     let tokenUse = "doplnit token"
     let eventsURL = "https://tedxostrava2015.herokuapp.com/api/cs/events"
     
-
+*/
     override func viewDidLoad() {
         super.viewDidLoad()
+}
+}
+
+        /*
         
-        let params = {"username" : "ondrej.david", "password" : "ondrej"}
+//        let params = {"username" : "ondrej.david", "password" : "ondrej"}
         let url = NSURL(string: self.eventsURL)
         var mutableURLRequest = NSMutableURLRequest(URL: url!)
-        mutableURLRequest.setValue("JWT"\(self.tokenUse), forHTTPHeaderField: "Authorization")
+//        mutableURLRequest.setValue("JWT"\(self.tokenUse), forHTTPHeaderField: "Authorization")
         
         mutableURLRequest.HTTPMETHOD = "GET"
         var manager = Alamofire.Manager.sharedInstance
@@ -39,7 +43,7 @@ class ViewController: UIViewController {
         
         
         
-        var getEvents = Alamofire.request(Method.GET, self.eventsURL)
+//        var getEvents = Alamofire.request(Method.GET, self.eventsURL)
         getEvents.responseJSON(options: nil, completionHandler:eventsReceived)
         
         
@@ -80,12 +84,9 @@ class ViewController: UIViewController {
             
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+*/
+    
 
 
-}
+
 
