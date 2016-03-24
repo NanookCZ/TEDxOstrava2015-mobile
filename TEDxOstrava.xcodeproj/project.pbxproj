@@ -420,6 +420,7 @@
 		DCBD23EE1BAEA75600C7F584 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Svetlana Margetová";
 				TargetAttributes = {
